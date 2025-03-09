@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گالری تصاویر کرونا</title>
+
+</head>
+<body>
+    <header>
+        <h1>گالری تصاویر کرونا</h1>
+        <a href="korona.html" class="back-link">بازگشت به صفحه اصلی</a>
+        <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+    </header>
+    
+    <section class="gallery">
+        <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1307432496-612x612.jpg" alt="تصویر کرونا ۱">
+        <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1333202091-612x612.jpg" alt="تصویر کرونا ۲">
+        <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1336071300-612x612.jpg" alt="تصویر کرونا ۳">
+        <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1349579552-612x612.jpg" alt="تصویر کرونا ۴">
+        <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1366654397-612x612.jpg" alt="تصویر کرونا ۴">
+        <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1677819202-612x612.jpg" alt="تصویر کرونا ۴">
+        <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1952157072-612x612.jpg" alt="تصویر کرونا ۴">
+   <img src="/home/amirreza/Documents/Projects/work-study/premium_photo-1661515580420-a28e461fd8b0.avif" alt="تصویر کرونا ۴">
+   <img src="/home/amirreza/Documents/Projects/work-study/istockphoto-1299308834-612x612.jpg" alt="تصویر کرونا ۴">
+    </section>
+
+<style>
+
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: 'Vazirmatn', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* هدر */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 26px;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+        height: 200px; /* ارتفاع ثابت برای همه‌ی تصاویر */
+    object-fit: cover; /* برش تصویر برای فیت شدن داخل باکس */
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.back-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #cc0000;
+}
+
+</style>
+</body>
+</html>
