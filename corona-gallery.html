@@ -59,11 +59,13 @@ h1 {
 .gallery img {
     width: 100%;
         height: 200px; /* ارتفاع ثابت برای همه‌ی تصاویر */
-    object-fit: cover; /* برش تصویر برای فیت شدن داخل باکس */
-    
+   oject-fit: cover; /* برش تصویر برای فیت شدن داخل باکس */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+        cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
 .gallery img:hover {
@@ -86,6 +88,8 @@ h1 {
 .back-link:hover {
     background-color: #cc0000;
 }
+
+
 
 </style>
 </body>
